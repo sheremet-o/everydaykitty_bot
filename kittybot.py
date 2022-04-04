@@ -49,7 +49,7 @@ def wake_up(update, context):
 
 
 def main():
-    updater = Updater(token=secret_token)
+    updater = Updater(token=TOKEN)
 
     updater.dispatcher.add_handler(CommandHandler('start', wake_up))
     updater.dispatcher.add_handler(CommandHandler('newcat', new_cat))
