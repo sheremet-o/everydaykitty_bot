@@ -7,7 +7,7 @@ from telegram import ReplyKeyboardMarkup
 from dotenv import load_dotenv
 
 load_dotenv()
-SECRET_TOKEN = os.getenv('TOKEN')
+SECRET_TOKEN = SECRET_TOKEN
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
