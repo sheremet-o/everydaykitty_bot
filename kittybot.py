@@ -7,6 +7,7 @@ from telegram import ReplyKeyboardMarkup
 from dotenv import load_dotenv
 
 load_dotenv()
+SECRET_TOKEN = os.getenv('TOKEN')
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -48,7 +49,7 @@ def wake_up(update, context):
 
 
 def main():
-    updater = Updater(token='5217004993:AAExZt0jdsHXdg-5PSjsefLvLSMS5tP3hSo')
+    updater = Updater(token=SECRET_TOKEN)
 
     updater.dispatcher.add_handler(CommandHandler('start', wake_up))
     updater.dispatcher.add_handler(CommandHandler('newcat', new_cat))
