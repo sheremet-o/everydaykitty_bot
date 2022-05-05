@@ -1,2 +1,6 @@
 # everydaykitty_bot
-Telegram bot that sends random cat pictures
+
+## Description
+Telegram chatbot sending random images at user's request.
+
+@everydaykitty_bot
