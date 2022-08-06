@@ -1,6 +1,16 @@
 # everydaykitty_bot
 
-## Description
-Telegram chatbot sending random images at user's request.
+## Описание
+Чат-бот для мессенджера Telegram, через api подключенный к стоку изображений котов.
 
-@everydaykitty_bot
+## Стек технологий
+* Python 3.8
+* pytest 6.2.5
+* python-telegram-bot 13.7
+
+
+## Команды
+1. Найдите в Telegram @everydaykitty_bot
+2. Выберите команду /start для начала работы
+3. Выберите команду /newcat для получения случайного изображения
+
